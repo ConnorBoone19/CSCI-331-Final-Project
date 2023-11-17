@@ -1,0 +1,47 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 800px;
+  min-width: 280px;
+  margin: auto;
+}
+#btns {
+  text-align: center;
+}
+
+#apiData {
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 90%;
+  padding: 1rem;
+  overflow-wrap: normal;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#product {
+  padding: 10px;
+}
+
+img.user {
+  border: 10px solid mintcream;
+  background-color: mintcream;
+  border-radius: 40%;
+  width: 128px;
+  height: 128px;
+  display: block;
+  margin: auto;
+}
+
+h2.user{
+  color:mintcream;
+  text-align: center;
+  margin: 5px;
+}
+
+th, td {
+  font-family: sans-serif;
+  padding: 10px;
+  text-align: center;
+}
