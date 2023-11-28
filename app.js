@@ -12,7 +12,7 @@ async function fetchAPIData() {
                                                 </div>
                                                 <div class="productInfo">
                                                     <div id="productTitle">
-                                                        <p style="fontSize:.5rem">${product.title}</p>
+                                                        <p style="fontSize:.5rem; font-weight:bold;">${product.title}</p>
                                                     </div>
                                                     <p>$${product.price}</p>
                                                 </div>
