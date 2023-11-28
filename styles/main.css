@@ -11,7 +11,6 @@ body{
   width: 90%;
   padding-right: 100px;
   padding-top: 40px;
-  /*padding: 1rem;*/
   overflow-wrap: normal;
   margin: auto;
   display: grid;
@@ -55,22 +54,6 @@ img.productImage{
   -webkit-line-clamp: 3;
   overflow: hidden;
 }
-
-/*img.user {
-  border: 10px solid mintcream;
-  background-color: mintcream;
-  border-radius: 40%;
-  width: 128px;
-  height: 128px;
-  display: block;
-  margin: auto;
-}
-
-h2.user{
-  color:mintcream;
-  text-align: center;
-  margin: 5px;
-}*/
 
 th, td {
   font-family: sans-serif;
