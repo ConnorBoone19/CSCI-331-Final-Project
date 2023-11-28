@@ -12,11 +12,11 @@ right:0;
 }
 
 header #logo {
-height: 100px;
+height: 50px;
 float: left;
 margin-right: 10%;
 margin-left: 3%;
-padding-top: 5px;
+padding-top: 27px;
 /* display: inline-block; */
 }
 
@@ -48,7 +48,7 @@ letter-spacing: 1.75px;
 text-transform: uppercase;
 font-weight: bold;
 transition: all .2s linear;
-color: #574b44;
+color: white;
 }
 
 .socials {
@@ -63,14 +63,14 @@ margin-right: 3%;
 }
 
 header nav ul li a:hover {
-color: white;
+color: lightslategray;
 text-shadow: 1px 1px #222222;
 }
 
-header nav ul li a.active-page {
-color: white;
+/* header nav ul li a.active-page {
+color: silver;
 text-shadow: 1px 1px #222222;
-}
+} */
 
 /* body, text */
 
@@ -78,12 +78,14 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   /* max-width: 1000px;
   min-width: 280px; */
+  height: 100vh;
   margin: auto;
+  background-color: snow;
 }
 
 .bgimg {
-  background-image: url("images/clothes.jpg");
-  height: 100%;
+  background-image: url("../images/clothes3.jpg");
+  height: 100vh;
   width: 100%;
   background-size: cover;
   display: flex;
@@ -94,7 +96,7 @@ body{
 #blurb {
   position: absolute;
   text-shadow: 1px 1px #222222;
-  margin-top: 15%;
+  /* margin-top: 15%; */
   color: white;
 }
 
