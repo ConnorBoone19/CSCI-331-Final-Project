@@ -17,7 +17,6 @@ float: left;
 margin-right: 10%;
 margin-left: 3%;
 padding-top: 27px;
-/* display: inline-block; */
 }
 
 header nav ul {
@@ -63,22 +62,14 @@ margin-right: 3%;
 }
 
 header nav ul li a:hover {
-color: lightslategray;
+color: rgb(117, 116, 116);
 text-shadow: 1px 1px #222222;
 }
-
-/* header nav ul li a.active-page {
-color: silver;
-text-shadow: 1px 1px #222222;
-} */
 
 /* body, text */
 
 body{
-  /* font-family: Arial, Helvetica, sans-serif; */
   font-family: 'Ubuntu', sans-serif;
-  /* max-width: 1000px;
-  min-width: 280px; */
   height: 100vh;
   margin: auto;
   background-color: snow;
@@ -97,7 +88,6 @@ body{
 #blurb {
   position: absolute;
   text-shadow: 2px 2px #222222;
-  /* margin-top: 15%; */
   color: white;
   text-align: center;
 }
@@ -145,17 +135,29 @@ body{
   align-items: center;
 }
 
-#apiData {
-  border: 2px solid gray;
-  border-radius: 10px;
-  width: 80%;
-  padding-right: 100px;
-  padding-top: 40px;
-  overflow-wrap: normal;
+#saleItems {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
-  margin-top: 100px;
+  margin-top: 50px;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+#saleItemsHeader {
+  
+  text-align: left;
+  margin-bottom: 0;
+}
+
+#apiData {
+  border: 2px solid rgb(186, 186, 186);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding-right: 100px;
+  padding-top: 40px;
+  overflow-wrap: normal;
   display: grid;
   grid-template-columns: repeat(auto-fill, 100px);
   justify-content: space-between;
@@ -166,7 +168,7 @@ body{
 .product {
   margin-right: 30px;
   margin-left: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   width: 100px;
 }
 
@@ -203,4 +205,61 @@ th, td {
   font-family: sans-serif;
   padding: 10px;
   text-align: center;
+}
+
+/* footer */
+
+footer {
+  background-color: #2d2d2d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.footercontainer {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  justify-content: center;
+}
+
+#footerlogo {
+  margin-top: 50px;
+  width: 50%;
+  padding-left: 25%;
+  padding-right: 35%;
+
+}
+
+.contact {
+  margin-top: 10px;
+}
+
+.contact h3 {
+  font-size: 1em;
+  color: white;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright h3 {
+  font-size: 1em;
+  color: white;
+  text-align: right;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 55px;
+}
+
+.row {
+  display: flex;
+}
+
+.w-33 {
+  width: 33.33333%;
 }
