@@ -1,30 +1,62 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 800px;
+  max-width: 1200px;
   min-width: 280px;
   margin: auto;
-}
-#btns {
-  text-align: center;
 }
 
 #apiData {
   border: 2px solid gray;
   border-radius: 10px;
   width: 90%;
-  padding: 1rem;
+  padding-right: 100px;
+  padding-top: 40px;
+  /*padding: 1rem;*/
   overflow-wrap: normal;
-  margin: 1rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+  justify-content: space-between;
+  grid-column-gap: 70px;
+}
+
+.product {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  width: 100px;
+}
+
+.productImage {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-#product {
-  padding: 10px;
+img.productImage{
+  width:  100px;
+  height: 100px;
+  object-fit: cover;
 }
 
-img.user {
+.productInfo {
+  width: 150px;
+  height: 150px;
+  text-align: left;
+}
+
+#productTitle {
+  height: 73px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+/*img.user {
   border: 10px solid mintcream;
   background-color: mintcream;
   border-radius: 40%;
@@ -38,7 +70,7 @@ h2.user{
   color:mintcream;
   text-align: center;
   margin: 5px;
-}
+}*/
 
 th, td {
   font-family: sans-serif;
