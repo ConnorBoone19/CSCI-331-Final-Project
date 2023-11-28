@@ -1,14 +1,132 @@
+/* header, nav */
+
+header {
+  align-items: center;
+}
+
+header nav {
+position: absolute;
+justify-content: center;
+left:0;
+right:0;
+}
+
+header #logo {
+height: 100px;
+float: left;
+margin-right: 10%;
+margin-left: 3%;
+padding-top: 5px;
+/* display: inline-block; */
+}
+
+header nav ul {
+margin: 0px;
+padding: 0px;
+text-align: center;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+}
+
+header nav ul li {
+padding-top: 15px;
+padding-right: 10%;
+margin: 0px;
+list-style-type: none;
+overflow: hidden;
+}
+
+header nav ul li a {
+padding-top:25px;
+display: block;
+text-decoration: none;
+font-family: 'Teko', sans-serif;
+font-size: 1.25em;
+font-weight: 400;
+letter-spacing: 1.75px;
+text-transform: uppercase;
+font-weight: bold;
+transition: all .2s linear;
+color: #574b44;
+}
+
+.socials {
+padding-left: 2px;
+padding-right: 2px;
+display: flex;
+clear: both;
+}
+
+#edgelogo {
+margin-right: 3%;
+}
+
+header nav ul li a:hover {
+color: white;
+text-shadow: 1px 1px #222222;
+}
+
+header nav ul li a.active-page {
+color: white;
+text-shadow: 1px 1px #222222;
+}
+
+/* body, text */
+
 body{
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 1200px;
-  min-width: 280px;
+  /* max-width: 1000px;
+  min-width: 280px; */
   margin: auto;
+}
+
+.bgimg {
+  background-image: url("images/clothes.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blurb {
+  position: absolute;
+  text-shadow: 1px 1px #222222;
+  margin-top: 15%;
+  color: white;
+}
+
+.downarrow {
+  font-size: 3em;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  color: white;
+  opacity: 90%;
+  top: 92%;
+}
+
+.container {
+  padding-top: 300px;
+}
+
+#testimonials {
+  height: 100%;
+  width: 100%;
+  background-color: seagreen;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #apiData {
   border: 2px solid gray;
   border-radius: 10px;
-  width: 90%;
+  width: 80%;
   padding-right: 100px;
   padding-top: 40px;
   overflow-wrap: normal;

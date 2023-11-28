@@ -6,12 +6,55 @@
     <title>Online Store</title>
     <script src="app.js" defer></script>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   </head>
   <body>
-    <h1>Store</h1>
+    <header>
+      <nav>
+        <a href="#">
+          <img id="logo" src="images/clothes.jpg" alt="outdoor adventures logo">
+          <!-- <p id="logo">image placeholder</p> -->
+        </a>
+        <ul>
+  
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Beauty</a></li>
+          <li><a href="#">Sale</a></li>
+          <li><a href="#">Contact</a></li>
+          <li class="socials"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li class="socials"><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li class="socials" id="edgelogo"><a href="#"><i class="fab fa-twitter"></i></a></li>
+  
+        </ul>
+  
+      </nav>
+    </header>
 
-    <div id="apiData">
-      <!-- api data will go here -->
+    <div class="bgimg">
+      <div id="blurb">
+        <h1>Our Biggest Sale of the Year!</h1>
+        <p>Grab your favorites before they're gone!</p>
+      </div>
+    </div>
+
+    <div class="downarrow">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+
+    <div class="container">
+      <div id="testimonial">
+        <!-- add testimonial widget -->
+      </div>
+      <div id="apiData">
+        <!-- api data will go here -->
+      </div>
     </div>
   </body>
 </html>
